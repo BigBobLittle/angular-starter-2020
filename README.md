@@ -1,5 +1,5 @@
-# WayaWebTwo 
-This project is the Version 2 of WayaMoney Web platform based on angular. Please read all instructions here very carefully, as a new developer, or advanced developer. Please just read. I'll do well to document all instructions here for ease and smooth onboarding. 
+# Basic Angular Starter Template 
+This project contain a basic starter for angular projects. It has preconfigured `ngx-toastr`, `a basic spinner component`, `widgets and basic services needed to run a basic starter angular project` with `ngx-bootstrap`
 
 ## About Developer 
 I'm [Big Bob Little](https://github.com/BigBobLittle), no long talk, follow to github. [Email](littletheprogrammer@gmail.com) and read more. Add your name here, incase, you become the dear next developer 😆. 
@@ -22,7 +22,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Widgets
 i have structured this project with a very high overview on user functionalities and component reusability. For that reason , i've made some plug and play modules. 
-For example `spinner`  
+For example `spinner` inside the widgets folder    
 in order to add your own custom widgets, follow the following steps 
 
 1. `cd app/src/_widgets`
