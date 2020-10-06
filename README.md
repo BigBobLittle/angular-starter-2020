@@ -1,5 +1,7 @@
 # Basic Angular Starter Template 
-This project contain a basic starter for angular projects. It has preconfigured `ngx-toastr`, `a basic spinner component`, `widgets and basic services needed to run a basic starter angular project` with `ngx-bootstrap`
+This project contain a basic starter for angular projects. It has preconfigured `ngx-toastr`, `a basic spinner component`, `widgets and basic services needed to run a basic starter angular project` with `ngx-bootstrap`   
+
+View demo project [here](https://angular-base-starter.web.app)
 
 ## About Developer 
 I'm [Big Bob Little](https://github.com/BigBobLittle), no long talk, follow to github. [Email](littletheprogrammer@gmail.com) and read more. Add your name here, incase, you become the dear next developer 😆. 
