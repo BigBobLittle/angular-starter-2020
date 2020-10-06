@@ -29,6 +29,7 @@ in order to add your own custom widgets, follow the following steps
 2. generate your widget componet by `ng g c [widgetName]`
 3. go to `widget.module.ts`, add your new widget to the `exports array`  
 4. call your widgets on any part of the project 
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
