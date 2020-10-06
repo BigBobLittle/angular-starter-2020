@@ -10,6 +10,16 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+
+## widgets
+i have structured this project with a very high overview on user functionalities and component reusability. For that reason , i've made some plug and play modules. 
+For example `spinner`  
+in order to add your own custom widgets, follow the following steps 
+
+1. `cd app/src/_widgets`
+2. generate your widget componet by `ng g c [widgetName]`
+3. go to `widget.module.ts`, add your new widget to the `exports array`  
+4. call your widgets on any part of the project 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
