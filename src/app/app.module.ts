@@ -7,6 +7,11 @@ import { WidgetsModule } from './_widgets/widgets/widgets.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown'; 
 import { ToastrModule } from 'ngx-toastr';
+import { exportThisInterceptorsToAppModule } from './_interceptors/export-interceptors';
+
+
+// export interceptors 
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -17,7 +22,7 @@ import { ToastrModule } from 'ngx-toastr';
     BsDropdownModule.forRoot(),
     ToastrModule.forRoot(), 
   ],
-  providers: [],
+  providers: [exportThisInterceptorsToAppModule],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
